@@ -1,14 +1,9 @@
 class Person
 
-  def initialize(name)
-    @name = name
-  end
+  ttr_accessor :roster
+  attr_reader :name
 
-  def name=(name)
-    @name = name
-  end
- 
-  def name
-    @name
+  def initialize(name)
+    @name= name
   end
 end
